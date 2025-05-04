@@ -1,0 +1,8 @@
+go 1.23.3
+
+use (
+	./saga/choreography/booking-service
+	./saga/choreography/payment-service
+	./saga/choreography/seats-service
+	./saga/utility
+)
